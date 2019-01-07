@@ -44,11 +44,15 @@
             this.outputFolderDialogBtn = new System.Windows.Forms.Button();
             this.outputFolderTextbox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.renderBtn = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.jpegSequenceFilename = new System.Windows.Forms.TextBox();
+            this.import2ProjectMediaBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pythonExecutableTextbox
             // 
-            this.pythonExecutableTextbox.Location = new System.Drawing.Point(130, 12);
+            this.pythonExecutableTextbox.Location = new System.Drawing.Point(130, 76);
             this.pythonExecutableTextbox.Name = "pythonExecutableTextbox";
             this.pythonExecutableTextbox.Size = new System.Drawing.Size(229, 20);
             this.pythonExecutableTextbox.TabIndex = 0;
@@ -56,7 +60,7 @@
             // 
             // fileDialogPythonBtn
             // 
-            this.fileDialogPythonBtn.Location = new System.Drawing.Point(365, 13);
+            this.fileDialogPythonBtn.Location = new System.Drawing.Point(365, 77);
             this.fileDialogPythonBtn.Name = "fileDialogPythonBtn";
             this.fileDialogPythonBtn.Size = new System.Drawing.Size(24, 19);
             this.fileDialogPythonBtn.TabIndex = 1;
@@ -67,7 +71,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 16);
+            this.label1.Location = new System.Drawing.Point(12, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 13);
             this.label1.TabIndex = 2;
@@ -76,7 +80,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 42);
+            this.label2.Location = new System.Drawing.Point(12, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 13);
             this.label2.TabIndex = 5;
@@ -84,7 +88,7 @@
             // 
             // fileDialogRunSequenceBtn
             // 
-            this.fileDialogRunSequenceBtn.Location = new System.Drawing.Point(365, 39);
+            this.fileDialogRunSequenceBtn.Location = new System.Drawing.Point(365, 103);
             this.fileDialogRunSequenceBtn.Name = "fileDialogRunSequenceBtn";
             this.fileDialogRunSequenceBtn.Size = new System.Drawing.Size(24, 19);
             this.fileDialogRunSequenceBtn.TabIndex = 4;
@@ -94,7 +98,7 @@
             // 
             // run_sequenceTextbox
             // 
-            this.run_sequenceTextbox.Location = new System.Drawing.Point(130, 38);
+            this.run_sequenceTextbox.Location = new System.Drawing.Point(130, 102);
             this.run_sequenceTextbox.Name = "run_sequenceTextbox";
             this.run_sequenceTextbox.Size = new System.Drawing.Size(229, 20);
             this.run_sequenceTextbox.TabIndex = 3;
@@ -103,7 +107,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 68);
+            this.label3.Location = new System.Drawing.Point(12, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 8;
@@ -111,7 +115,7 @@
             // 
             // inputFolderDialogBtn
             // 
-            this.inputFolderDialogBtn.Location = new System.Drawing.Point(365, 65);
+            this.inputFolderDialogBtn.Location = new System.Drawing.Point(365, 129);
             this.inputFolderDialogBtn.Name = "inputFolderDialogBtn";
             this.inputFolderDialogBtn.Size = new System.Drawing.Size(24, 19);
             this.inputFolderDialogBtn.TabIndex = 7;
@@ -121,7 +125,7 @@
             // 
             // inputFolderTextbox
             // 
-            this.inputFolderTextbox.Location = new System.Drawing.Point(130, 64);
+            this.inputFolderTextbox.Location = new System.Drawing.Point(130, 128);
             this.inputFolderTextbox.Name = "inputFolderTextbox";
             this.inputFolderTextbox.Size = new System.Drawing.Size(229, 20);
             this.inputFolderTextbox.TabIndex = 6;
@@ -130,7 +134,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 94);
+            this.label4.Location = new System.Drawing.Point(12, 158);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 11;
@@ -138,7 +142,7 @@
             // 
             // styleModelBtn
             // 
-            this.styleModelBtn.Location = new System.Drawing.Point(365, 91);
+            this.styleModelBtn.Location = new System.Drawing.Point(365, 155);
             this.styleModelBtn.Name = "styleModelBtn";
             this.styleModelBtn.Size = new System.Drawing.Size(24, 19);
             this.styleModelBtn.TabIndex = 10;
@@ -148,7 +152,7 @@
             // 
             // styleModelTextbox
             // 
-            this.styleModelTextbox.Location = new System.Drawing.Point(130, 90);
+            this.styleModelTextbox.Location = new System.Drawing.Point(130, 154);
             this.styleModelTextbox.Name = "styleModelTextbox";
             this.styleModelTextbox.Size = new System.Drawing.Size(229, 20);
             this.styleModelTextbox.TabIndex = 9;
@@ -157,7 +161,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 120);
+            this.label5.Location = new System.Drawing.Point(12, 184);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 13);
             this.label5.TabIndex = 14;
@@ -165,7 +169,7 @@
             // 
             // outputFolderDialogBtn
             // 
-            this.outputFolderDialogBtn.Location = new System.Drawing.Point(365, 117);
+            this.outputFolderDialogBtn.Location = new System.Drawing.Point(365, 181);
             this.outputFolderDialogBtn.Name = "outputFolderDialogBtn";
             this.outputFolderDialogBtn.Size = new System.Drawing.Size(24, 19);
             this.outputFolderDialogBtn.TabIndex = 13;
@@ -175,7 +179,7 @@
             // 
             // outputFolderTextbox
             // 
-            this.outputFolderTextbox.Location = new System.Drawing.Point(130, 116);
+            this.outputFolderTextbox.Location = new System.Drawing.Point(130, 180);
             this.outputFolderTextbox.Name = "outputFolderTextbox";
             this.outputFolderTextbox.Size = new System.Drawing.Size(229, 20);
             this.outputFolderTextbox.TabIndex = 12;
@@ -183,19 +187,59 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 159);
+            this.button1.Location = new System.Drawing.Point(12, 223);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 26);
+            this.button1.Size = new System.Drawing.Size(108, 26);
             this.button1.TabIndex = 15;
-            this.button1.Text = "Run";
+            this.button1.Text = "Run style-transfer";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // renderBtn
+            // 
+            this.renderBtn.Location = new System.Drawing.Point(281, 35);
+            this.renderBtn.Name = "renderBtn";
+            this.renderBtn.Size = new System.Drawing.Size(108, 26);
+            this.renderBtn.TabIndex = 16;
+            this.renderBtn.Text = "Render selected";
+            this.renderBtn.UseVisualStyleBackColor = true;
+            this.renderBtn.Click += new System.EventHandler(this.renderBtn_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(116, 13);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "JPEG sequence name:";
+            // 
+            // jpegSequenceFilename
+            // 
+            this.jpegSequenceFilename.Location = new System.Drawing.Point(165, 6);
+            this.jpegSequenceFilename.Name = "jpegSequenceFilename";
+            this.jpegSequenceFilename.Size = new System.Drawing.Size(224, 20);
+            this.jpegSequenceFilename.TabIndex = 18;
+            // 
+            // import2ProjectMediaBtn
+            // 
+            this.import2ProjectMediaBtn.Location = new System.Drawing.Point(130, 223);
+            this.import2ProjectMediaBtn.Name = "import2ProjectMediaBtn";
+            this.import2ProjectMediaBtn.Size = new System.Drawing.Size(259, 26);
+            this.import2ProjectMediaBtn.TabIndex = 19;
+            this.import2ProjectMediaBtn.Text = "Import output sequence to Project Media";
+            this.import2ProjectMediaBtn.UseVisualStyleBackColor = true;
+            this.import2ProjectMediaBtn.Click += new System.EventHandler(this.import2ProjectMediaBtn_Click);
             // 
             // fast_style_transfer_gui_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 197);
+            this.ClientSize = new System.Drawing.Size(404, 308);
+            this.Controls.Add(this.import2ProjectMediaBtn);
+            this.Controls.Add(this.jpegSequenceFilename);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.renderBtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.outputFolderDialogBtn);
@@ -237,5 +281,9 @@
         private System.Windows.Forms.Button outputFolderDialogBtn;
         private System.Windows.Forms.TextBox outputFolderTextbox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button renderBtn;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox jpegSequenceFilename;
+        private System.Windows.Forms.Button import2ProjectMediaBtn;
     }
 }
